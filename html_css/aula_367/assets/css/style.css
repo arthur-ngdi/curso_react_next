@@ -1,0 +1,12 @@
+/* pseudo-elementos */
+
+ul li::after {
+    content: " -";
+}
+ul li::before{
+    content: " (";
+}
+
+p::first-letter {
+    font-size: 100px;
+}
