@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: sans-serif;
+    sont-size: 40px;
+}
+
+/* .grid::after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr, 2fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+   
+}
+
+.grid div{
+    background: tomato;
+    min-height: 100px;
+}
